@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+#navbar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+ul,li{
+    padding: 5px;
+    display: inline;
+}
+ul{
+    color: grey;
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+#home{
+    padding: 20px;
+    text-align: center;
+}
+.item{
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: inline-block;
+    width: 200px;
+}
+.item:hover{
+    background-color: black;
+    color: white;
+}
+.div2{
+    text-align: center;
+    background-color: darkgray;
+    color: black;
+}
+.div2:hover{
+    background-color: white;
+}
+#contact{
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+}
+#send{
+    background: darkgray;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10px;
+    color: black;
+}
+input{
+    text-align: center;
+    margin: 3px;
+}
+#send:hover{
+    background-color: white;
+}
+#age{
+    margin-right: 10px;
+}
+form{
+    display: inline-block;
+}
+img{
+    height: 400px;
+    width: 200px;
+}
